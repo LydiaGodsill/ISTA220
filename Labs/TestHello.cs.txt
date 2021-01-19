@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace TestHello
+{
+    class Program
+    {
+        static void Main(string[] Cybil) 
+        {
+            Console.WriteLine("What is your name?");
+            String name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}"); 
+        } //ends main method
+    } //ends class program
+}  //ends namespace block
